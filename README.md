@@ -12,3 +12,8 @@
 3) **python manage.py runserver**
 4) if the above command doesnt run try **python3 manage.py runserver**
 
+
+## DEMO
+
+###Bangladesh
+![This is an image](/assets/SS1.png)
