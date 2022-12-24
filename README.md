@@ -16,4 +16,4 @@
 ## DEMO
 
 
-![This is an image](/assets/SS1.png)
+![This is an image](https://github.com/RishiKr3101/SOLAR_LAB_ASSIGNMENT/blob/main/assets/SS1.png?raw=true)
