@@ -9,9 +9,11 @@ def result(country):
 
     page = requests.get(link)
     flag_page= requests.get(flag_link)
-    soup2= BeautifulSoup(page.text, 'lxml')
-    image=soup2.findAll('img')[0].get('src')
-    country_dict["flag_link"] = "https:"+image
+    soup2= BeautifulSoup(flag_page.text, 'lxml')
+    
+    im= soup2.find(id= "file")
+    image=im.find_all("a")
+    country_dict["flag_link"] = "https:"+image[0].get("href")
 
     soup = BeautifulSoup(page.text, 'lxml')
     object= soup.find(id="mw-content-text")
