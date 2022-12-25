@@ -61,7 +61,7 @@ def result(country):
             else:
                 c_data.append(country_data[i].find("a").get_text().replace('\xa0', " "))
         
-        if country_info[i].get_text().replace('\xa0', " ") == "• Total" and "km2" in country_data[i].get_text().replace('\xa0', " "):
+        if ("Total" in country_info[i].get_text().replace('\xa0', " ") or "total" in country_info[i].get_text().replace('\xa0', " "))  and "km2" in country_data[i].get_text().replace('\xa0', " "):
             c_info.append("Area")
             if country_data[i].find('ul'):
                 datas = country_data[i].ul.find_all("li")
