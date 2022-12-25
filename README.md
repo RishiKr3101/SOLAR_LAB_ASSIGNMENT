@@ -8,9 +8,10 @@
 ## How to run the project:
 
 1) Open the repo in a terminal
-2) Command: '''cd country'''
-3) '''python manage.py runserver'''
-4) if the above command doesnt run try '''python3 manage.py runserver'''
+2) Command: ''' cd country '''
+3) ''' python manage.py runserver '''
+4) if the above command doesnt run try ''' python3 manage.py runserver '''
+5) Go to the url **http://127.0.0.1:8000/country_info/<country_name>**
 
 
 ## DEMO
