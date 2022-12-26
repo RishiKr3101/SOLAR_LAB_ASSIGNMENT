@@ -10,11 +10,13 @@ import json
 @api_view(['GET'])
 def home(request, countryname):
     if request.method == "GET":
-        
-        country= countryname
-        final_dict= result(country)
-        print(final_dict)
-        return Response(json.loads(json.dumps(final_dict)))
+        try:
+            country= countryname
+            final_dict= result(country)
+            print(final_dict)
+            return Response(json.loads(json.dumps(final_dict)))
+        except:
+            return Response("No such country exists")
         return(Response('Search for a Country'))
 
 
