@@ -15,9 +15,9 @@
 
 ## Technologies
 
-1)Django Rest Framework
-2)BeautifulSoap
-3)Languages: Python 3.0
+1) Django Rest Framework
+2) BeautifulSoap
+3) Languages: Python 3.0
 
 ## DEMO
 
