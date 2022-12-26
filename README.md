@@ -13,6 +13,11 @@
 4) if the above command doesnt run try ''' python3 manage.py runserver '''
 5) Go to the url **http://127.0.0.1:8000/country_info/<country_name>**
 
+## Technologies
+
+1)Django Rest Framework
+2)BeautifulSoap
+3)Languages: Python 3.0
 
 ## DEMO
 
